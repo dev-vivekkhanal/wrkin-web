@@ -18,7 +18,7 @@ function App() {
           <img src={logo} alt="logo" />
         </div>
         {/* section 1 */}
-        <section className="mt-10 relative overflow-hidden pb-20 md:pb-0">
+        <section className="mt-10 relative overflow-hidden 2xl:overflow-visible  pb-20 md:pb-0">
           <div className=" px-5 flex-1 ">
             <div className=" md:flex">
               <h1 className="text-3xl md:text-6xl flex-1">
@@ -56,12 +56,12 @@ function App() {
           <img
             src={group1}
             alt="phone1"
-            className="ml-auto mt-20 md:-mt-56  z-10 relative right-[-40%] md:right-[-30%] scale-[1.5] md:scale-[1]"
+            className="ml-auto mt-20 md:-mt-56  z-10 relative right-[-40%] md:right-[-20rem] lg:right-[-10rem] xl:right-[-5rem] 2xl:right-[0]: scale-[1.5] md:scale-[1] md:w-full md:max-w-5xl"
           />
         </section>
         <div className="md:flex">
           {/* section 2 */}
-          <section className="px-5 -mt-20 pb-32 relative overflow-hidden">
+          <section className="px-5 -mt-20 pb-32 relative overflow-hidden 2xl:overflow-visible">
             <h1 className="text-3xl ">Professional Chat Environment</h1>
             <p className="text-sm max-w-[80%] md:max-w-full text-dark-200 mt-16 ">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -71,13 +71,17 @@ function App() {
               sem. Nulla consequat massa quis
             </p>
 
-            <img src={phone2} alt="phone2" className="mt-20" />
+            <img
+              src={phone2}
+              alt="phone2"
+              className="mt-20 md:w-full md:max-w-xs"
+            />
 
             <div className=" relative min-h-[20rem] w-full md:hidden">
               <img
                 src={blurr2}
                 alt="blurr2"
-                className="scale-[1.5] absolute -right-[0%] -bottom-[10%] w-full max-w-[25rem] "
+                className="scale-[1.5] absolute -right-[0%] -bottom-[10%] md:w-full md:max-w-[25rem] "
               />
             </div>
           </section>
@@ -92,12 +96,16 @@ function App() {
               sem. Nulla consequat massa quis
             </p>
 
-            <img src={phone3} alt="phone3" className=" mt-20 ml-auto " />
+            <img
+              src={phone3}
+              alt="phone3"
+              className=" mt-20 ml-auto md:w-full md:max-w-xs"
+            />
           </section>
         </div>
 
         {/* section 4 */}
-        <section className="px-5 mt-32 md:mt-0 pb-96 overflow-hidden">
+        <section className="px-5 mt-32 md:mt-0 pb-96 overflow-x-hidden lg:overflow-visible">
           <h1 className="text-3xl ">Simple to use HRM System</h1>
           <p className="text-sm  max-w-[80%] md:max-w-[50%] text-dark-200 mt-16 ">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -110,7 +118,7 @@ function App() {
           <img
             src={group4}
             alt="group4"
-            className="scale-[2] max-w-xs relative top-40 left-[-5rem]"
+            className="scale-[2] max-w-xs md:max-w-xl relative top-40 md:top-80 left-[-5rem]"
           />
         </section>
 
@@ -121,7 +129,7 @@ function App() {
               Task
             </h3>
 
-            <h3 className="block w-fit mx-auto text-3xl bg-primary-main px-8 py-4 mr-1 -rotate-6 font-bold min-w-[90px] text-center">
+            <h3 className="block w-fit mx-auto text-3xl bg-primary-main px-8 py-4 relative z-10 lg:-right-32 -rotate-6 font-bold min-w-[90px] text-center">
               Calendar
             </h3>
             <h3 className="block w-fit mx-auto text-3xl bg-secondary-main text-dark-900 font-bold px-8 py-4 rotate-[35deg]  min-w-[90px] text-center mb-2">
@@ -195,9 +203,9 @@ function App() {
         </section>
         {/* section 6 */}
         <section className="bg-primary-main py-10 ">
-          <div className="md:flex gap-5 items-start">
-            <div className="flex-1">
-              <h1 className="font-bold text-[2.5rem]  leading-tight px-5 ">
+          <div className="md:flex gap-5 items-start ">
+            <div className="flex-1 ">
+              <h1 className="font-bold text-[2.5rem] lg:text-[3rem] xl:text-[5rem]  leading-tight px-5 ">
                 Try wrkin <br /> for 3 months <br />
                 free
               </h1>
@@ -205,8 +213,8 @@ function App() {
               <p className="text-sm mt-5 px-5">
                 No contacts. No commitments. Guaranteed results.*{" "}
               </p>
-              <div className="flex gap-5 justify-center items-center mt-10 px-5">
-                <button className="bg-dark-100 text-dark-800 font-semibold p-2 px-5  active:scale-95  text-sm w-max">
+              <div className="flex gap-5  items-center mt-10 px-5">
+                <button className="bg-dark-100 text-dark-800 font-semibold p-2 px-5 md:px-8 md:p-3 lg:px-16 lg:p-4   active:scale-95  text-sm md:text-lg  w-max">
                   Try Now
                 </button>
 
@@ -222,7 +230,7 @@ function App() {
             <img
               src={tag_line}
               alt="tag line"
-              className="w-full mt-10 md:mt-0"
+              className="w-full mt-10 md:mt-0 flex-1 "
             />
           </div>
 
