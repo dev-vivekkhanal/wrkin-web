@@ -51,7 +51,7 @@ function App() {
                 </p>
               </div>
               <h1 className="text-3xl md:text-6xl lg:text-7xl xl:text-8xl">
-                <span className="bg-primary-main inline-block p-1 px-2">
+                <span className="bg-primary-main inline-block p-1 px-2 font-bold">
                   work
                 </span>{" "}
                 experiences
