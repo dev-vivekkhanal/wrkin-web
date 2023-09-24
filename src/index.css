@@ -33,3 +33,18 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #7577ee;
 }
+
+@keyframes loading {
+  0% {
+    scale: 1;
+    transform: rotate(720deg);
+  }
+  100% {
+    scale: 0;
+    transform: rotate(0deg);
+  }
+}
+
+.loading-animate {
+  animation: loading 4s ease-in-out;
+}
