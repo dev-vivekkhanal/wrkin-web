@@ -99,7 +99,7 @@ function App() {
               <img
                 src={phone2}
                 alt="phone2"
-                className="mt-20 md:w-full md:max-w-xs"
+                className="mt-20 w-full max-w-[14rem] md:max-w-xs"
               />
 
               <div className=" relative min-h-[320px] w-full md:hidden">
@@ -133,7 +133,7 @@ function App() {
           </div>
 
           {/* section 4 */}
-          <section className="px-5 mt-32 md:mt-0 pb-96 overflow-x-hidden lg:overflow-visible">
+          <section className="px-5 mt-32 md:mt-0 pb-96 overflow-x-hidden sm:overflow-visible">
             <h1 className="text-3xl ">
               Human Resource Management &#40;HRM&#41;
             </h1>
@@ -150,7 +150,7 @@ function App() {
             <img
               src={group4}
               alt="group4"
-              className="scale-[2] max-w-xs md:max-w-xl relative top-40 md:top-80 left-[-80px]"
+              className="scale-[2] max-w-xs md:max-w-lg relative top-40 md:top-80 left-[-80px]"
             />
           </section>
 
@@ -233,8 +233,11 @@ function App() {
               </div>
             </div>
           </section>
-          {/* section 6 */}
-          <section className="bg-primary-main py-10 ">
+        </div>
+
+        {/* section 6 */}
+        <section className="bg-primary-main py-10 ">
+          <div className="max-w-[1440px] mx-auto">
             <div className="md:flex gap-5 items-start ">
               <div className="flex-1 ">
                 <h1 className="font-bold text-[40px] lg:text-[48px] xl:text-[80px]  leading-tight px-5 ">
@@ -259,18 +262,17 @@ function App() {
                 </div>
               </div>
 
-              <img
-                src={tag_line}
-                alt="tag line"
-                className="w-full mt-10 md:mt-0 flex-1 "
-              />
+              <div className="mt-10 md:mt-0 flex-1 ">
+                <img src={tag_line} alt="tag line" className="w-full " />
+              </div>
             </div>
 
             <p className="text-xs mt-5 px-5">
               * for qualified brands with over $1m annual Shopify revenue.
             </p>
-          </section>
-        </div>
+          </div>
+        </section>
+
         {/* footer */}
         <footer className=" bg-gradient-to-t from-[#9395f72f] to-[#121212] min-w-[320px] ">
           <div className="max-w-[1440px] mx-auto flex flex-col justify-center items-center gap-10 py-52">
