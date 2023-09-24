@@ -13,7 +13,7 @@ import tag_line from "./assets/landing/tag_line.png";
 function App() {
   return (
     <div className="font-poppins min-h-screen bg-[#121212] text-white min-w-[20rem]">
-      <div className=" bg-[#121212] bg-opacity-50 w-full min-w-[20rem] max-w-[90rem] mx-auto">
+      <div className="  w-full min-w-[20rem] max-w-[90rem] mx-auto">
         <div className="flex justify-center items-center p-5 py-10 px-5">
           <img src={logo} alt="logo" />
         </div>
@@ -238,13 +238,14 @@ function App() {
             * for qualified brands with over $1m annual Shopify revenue.
           </p>
         </section>
-
-        {/* footer */}
-        <footer className="flex flex-col justify-center items-center gap-10 py-52 bg-gradient-to-t from-[#9395f72f] to-[#121212]">
+      </div>
+      {/* footer */}
+      <footer className=" bg-gradient-to-t from-[#9395f72f] to-[#121212] min-w-[20rem] ">
+        <div className="max-w-[90rem] mx-auto flex flex-col justify-center items-center gap-10 py-52">
           <img src={logo} alt="logo" />
           <p>©wrkin.app, all rights reserved.</p>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
   );
 }
