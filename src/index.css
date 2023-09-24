@@ -12,3 +12,24 @@
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #121212;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5d5fef;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7577ee;
+}
