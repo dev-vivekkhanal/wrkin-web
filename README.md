@@ -9,7 +9,7 @@ Wrkin.app is an innovative digital platform that redefines the way professionals
 <div align="center">
   <img src="src/assets/screenshots/ss1.png" alt=" section1" width="100%" />
   <img src="src/assets/screenshots/ss2.png" alt=" section2" width="100%" />
-  <img src="ssrc/assets/screenshots/ss3.png" alt="  section3" width="100%" />
+  <img src="src/assets/screenshots/ss3.png" alt="  section3" width="100%" />
   <img src="src/assets/screenshots/ss4.png" alt="  section4" width="100%" />
   <img src="src/assets/screenshots/ss5.png" alt="  section5" width="100%" />
   <br>
