@@ -1,8 +1,32 @@
-# React + Vite
+# Wrkin.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wrkin.app is an innovative digital platform that redefines the way professionals and businesses manage work collaboration, streamline task management, and simplify Human Resource Management (HRM). Wrkin.app offers a holistic solution designed to enhance workplace productivity, organization, and communication.
 
-Currently, two official plugins are available:
+## [Demo Link](https://wrkin-web.vercel.app/) 🔗
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots 📷📸
+
+<div align="center">
+  <img src="src/assets/screenshots/ss1.png" alt=" section1" width="100%" />
+  <img src="src/assets/screenshots/ss2.png" alt=" section2" width="100%" />
+  <img src="ssrc/assets/screenshots/ss3.png" alt="  section3" width="100%" />
+  <img src="src/assets/screenshots/ss4.png" alt="  section4" width="100%" />
+  <img src="src/assets/screenshots/ss5.png" alt="  section5" width="100%" />
+  <br>
+</div>
+
+## Technologies used 🛠️
+
+- **HTML** 🚀
+- **CSS** 🚀
+- **JavaScript** 🚀
+- **Tailwind CSS** 🚀
+- **React JS** 🚀
+
+---
+
+## Developer 👨‍💻
+
+- **Vivek Khanal** - **[Linkedin](https://www.linkedin.com/in/vivek-khanal-793016231/)**, **[Github](https://github.com/dev-vivekkhanal)**, **[Portfolio](https://vivekkhanal.com)**
+
+---

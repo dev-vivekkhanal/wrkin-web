@@ -10,7 +10,7 @@ const Section4 = () => {
   };
   return (
     <section className="px-5 mt-32 md:mt-0 pb-96 overflow-x-hidden sm:overflow-visible">
-      <h1 className="text-3xl ">H{section_data?.heading}</h1>
+      <h1 className="text-3xl ">{section_data?.heading}</h1>
       <p className="text-sm  max-w-[80%] md:max-w-[50%] text-dark-200 mt-16 ">
         {section_data?.desc}
       </p>
