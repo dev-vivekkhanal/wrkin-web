@@ -18,7 +18,7 @@ const Section3 = () => {
       <img
         src={section_data?.img}
         alt="phone3"
-        className=" mt-20 ml-auto md:w-full md:max-w-xs"
+        className=" mt-20 ml-auto md:w-full max-w-[14rem] md:max-w-xs"
       />
     </section>
   );

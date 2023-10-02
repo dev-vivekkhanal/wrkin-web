@@ -4,8 +4,8 @@ const Section5 = () => {
     cuboids: ["Task", "Calendar", "HRMS", "Group"],
     todos: [
       {
-        heading: "Direct Message a Task",
-        desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis",
+        heading: "Task Management",
+        desc: "Easily manage tasks and projects with Wrkin.app's intuitive task management feature. Create, assign, and prioritize tasks in chat conversations or dedicated task lists. Real-time tracking and status updates keep you organized and informed, ensuring that important tasks never fall through the cracks. Choose between task lists and kanban boards to match your workflow.",
         small_cuboids: [
           {
             name: "HRMS",
@@ -19,23 +19,23 @@ const Section5 = () => {
       },
 
       {
-        heading: "Direct Message a Task",
-        desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis",
+        heading: "Project management",
+        desc: "Take charge of projects with Wrkin.app's project management capabilities. Create projects with dedicated chat channels for efficient communication. Collaborate seamlessly, share updates, and assign tasks within project channels. Monitor project progress, track milestones, and access project-level analytics. Project templates simplify setup and ensure consistency across projects.",
         small_cuboids: [
           {
-            name: "HRMS",
-            type: "primary",
+            name: "Group",
+            type: "secondary",
           },
           {
-            name: "Task",
-            type: "secondary",
+            name: "Calendar",
+            type: "primary",
           },
         ],
       },
 
       {
-        heading: "Direct Message a Task",
-        desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis",
+        heading: "Communication and Collaboration",
+        desc: "Promote effective communication and collaboration using Wrkin.app's chat and collaboration features. Organize chat channels for teams, projects, and departments. Share files, links, and documents within conversations, tasks, and projects. Real-time messaging keeps teams connected, wherever they are. Wrkin.app creates a dynamic workspace for professionals, enhancing teamwork and productivity.",
         small_cuboids: [
           {
             name: "HRMS",

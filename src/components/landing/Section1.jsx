@@ -17,7 +17,7 @@ const Section1 = () => {
       </h1>
     ),
     desc: `Wrkin.app is an innovative digital platform that redefines the way professionals and businesses manage work collaboration, streamline task management, and simplify Human Resource Management (HRM). Wrkin.app offers a holistic solution designed to enhance workplace productivity, organization, and communication.`,
-    cta: "Try Now",
+    cta: "Coming Soon",
     img: group1,
   };
   return (

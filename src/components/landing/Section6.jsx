@@ -18,7 +18,7 @@ const Section6 = () => {
             </p>
             <div className="flex gap-5  items-center mt-10 px-5">
               <button className="bg-dark-100 text-dark-800 font-semibold p-2 px-5 md:px-8 md:p-3 lg:px-16 lg:p-4   active:scale-95  text-sm md:text-lg  w-max">
-                Try Now
+                Coming Soon
               </button>
 
               <div className="w-max">
